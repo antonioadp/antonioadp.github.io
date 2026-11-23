@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>影视先锋资源站噜噜噜_原创高清视频社区,品质影像内容生态</title>
+<meta name="description" content="影视先锋资源站噜噜噜官方网站，专注原创高清影视视频内容与创作者社区，提供深度测评、创作幕后、人物访谈与行业观察等精品内容。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2312161c'/%3E%3Cpath d='M24 18l22 14-22 14z' fill='%23ffd23f'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ll-base:#12161c;
+  --ll-base-2:#1a2029;
+  --ll-line:#2b3341;
+  --ll-text:#e8ecf2;
+  --ll-muted:#9aa7b8;
+  --ll-accent:#ffd23f;
+  --ll-accent-2:#3ddc97;
+  --ll-accent-3:#ff6b6b;
+  --ll-radius:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  background:var(--ll-base);
+  color:var(--ll-text);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.ll-wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 20px}
+.ll-anchor{scroll-margin-top:132px}
+
+/* ===== sticky header group ===== */
+.ll-topstack{position:sticky;top:0;z-index:80}
+.ll-announce{
+  background:linear-gradient(90deg,#ffd23f,#3ddc97 60%,#4cc9f0);
+  color:#0d1117;font-size:13px;font-weight:600;
+}
+.ll-announce-inner{display:flex;gap:14px;align-items:center;padding:8px 20px;max-width:1200px;margin:0 auto;overflow:hidden}
+.ll-announce-tag{background:#0d1117;color:#ffd23f;padding:1px 9px;border-radius:20px;font-size:11px;letter-spacing:.08em;flex:0 0 auto}
+.ll-announce-track{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ll-header{background:rgba(18,22,28,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--ll-line)}
+.ll-header-inner{display:flex;align-items:center;gap:22px;padding:12px 20px;max-width:1200px;margin:0 auto}
+.ll-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:.02em;flex:0 0 auto}
+.ll-logo-mark{width:34px;height:34px;border-radius:9px;background:var(--ll-accent);display:grid;place-items:center;color:#0d1117;font-size:15px}
+.ll-logo small{display:block;font-size:10px;font-weight:500;color:var(--ll-muted);letter-spacing:.16em}
+.ll-nav{display:flex;gap:18px;flex:1;min-width:0;font-size:14px;color:var(--ll-muted)}
+.ll-nav a{padding:4px 0;border-bottom:2px solid transparent;white-space:nowrap;transition:.2s}
+.ll-nav a:hover{color:var(--ll-accent);border-bottom-color:var(--ll-accent)}
+.ll-search{display:flex;align-items:center;gap:6px;background:var(--ll-base-2);border:1px solid var(--ll-line);border-radius:22px;padding:5px 6px 5px 14px;flex:0 0 250px}
+.ll-search input{background:none;border:none;outline:none;color:var(--ll-text);font-size:13px;width:100%}
+.ll-search input::placeholder{color:#68758a}
+.ll-search button{background:var(--ll-accent);color:#0d1117;border-radius:16px;padding:5px 13px;font-size:12.5px;font-weight:700}
+.ll-burger{display:none;font-size:22px;padding:4px 8px}
+.ll-search-feedback{font-size:12px;color:var(--ll-accent-2);padding:0 20px 8px;max-width:1200px;margin:0 auto;display:none}
+.ll-search-feedback.on{display:block}
+
+/* ===== hero ===== */
+.ll-hero{padding:52px 0 40px;background:
+  radial-gradient(700px 340px at 88% -10%, rgba(255,210,63,.16), transparent 70%),
+  radial-gradient(520px 300px at 0% 110%, rgba(61,220,151,.12), transparent 70%);}
+.ll-hero-grid{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,4fr);gap:44px;align-items:center}
+.ll-hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.2em;color:var(--ll-accent);border:1px solid rgba(255,210,63,.35);border-radius:20px;padding:4px 14px;margin-bottom:18px}
+.ll-hero h1{font-size:clamp(30px,4.4vw,48px);line-height:1.22;letter-spacing:-.01em;margin-bottom:16px}
+.ll-hero h1 em{font-style:normal;color:var(--ll-accent);position:relative}
+.ll-hero-lead{color:var(--ll-muted);font-size:15.5px;margin-bottom:14px;max-width:560px}
+.ll-hero-intro{font-size:13.8px;color:#b7c2d1;border-left:3px solid var(--ll-accent-2);padding-left:14px;margin-bottom:24px;max-width:580px}
+.ll-cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+.ll-btn{display:inline-flex;align-items:center;gap:7px;border-radius:24px;padding:10px 22px;font-size:14px;font-weight:700;transition:.2s;border:1px solid transparent}
+.ll-btn-primary{background:var(--ll-accent);color:#0d1117}
+.ll-btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(255,210,63,.28)}
+.ll-btn-ghost{border-color:var(--ll-line);color:var(--ll-text)}
+.ll-btn-ghost:hover{border-color:var(--ll-accent-2);color:var(--ll-accent-2)}
+.ll-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:520px}
+.ll-stat{background:var(--ll-base-2);border:1px solid var(--ll-line);border-radius:12px;padding:12px 14px}
+.ll-stat b{display:block;font-size:22px;color:var(--ll-accent);letter-spacing:-.02em}
+.ll-stat span{font-size:11.5px;color:var(--ll-muted);letter-spacing:.06em}
+.ll-hero-visual{position:relative}
+.ll-hero-visual img{border-radius:var(--ll-radius);aspect-ratio:4/5;object-fit:cover;width:100%;border:1px solid var(--ll-line)}
+.ll-hero-badge{position:absolute;left:-14px;bottom:22px;background:#0d1117;border:1px solid var(--ll-accent);border-radius:12px;padding:10px 16px;font-size:12.5px;font-weight:700;box-shadow:0 12px 30px rgba(0,0,0,.5)}
+.ll-hero-badge span{color:var(--ll-accent-2)}
+
+/* ===== section base ===== */
+.ll-sec{padding:52px 0}
+.ll-sec-alt{background:var(--ll-base-2);border-top:1px solid var(--ll-line);border-bottom:1px solid var(--ll-line)}
+.ll-sec-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:30px}
+.ll-sec-head h2{font-size:clamp(22px,2.8vw,30px);letter-spacing:-.01em}
+.ll-sec-head h2 span{color:var(--ll-accent)}
+.ll-sec-head p{color:var(--ll-muted);font-size:13.5px;max-width:560px}
+.ll-kicker{display:block;font-size:11.5px;letter-spacing:.24em;color:var(--ll-accent-2);margin-bottom:7px;font-weight:700}
+.ll-grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.ll-grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.ll-grid-4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+
+/* ===== focus list ===== */
+.ll-focus{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:34px;align-items:start}
+.ll-focus-main{border:1px solid var(--ll-line);border-radius:var(--ll-radius);overflow:hidden;background:var(--ll-base-2)}
+.ll-focus-main img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.ll-focus-main-body{padding:20px}
+.ll-focus-main-body h3{font-size:19px;margin-bottom:9px;line-height:1.4}
+.ll-focus-main-body p{font-size:13.5px;color:var(--ll-muted);margin-bottom:14px}
+.ll-tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}
+.ll-tag{font-size:11.5px;color:var(--ll-accent-2);border:1px solid rgba(61,220,151,.35);border-radius:20px;padding:2px 10px}
+.ll-tag.hot{color:var(--ll-accent-3);border-color:rgba(255,107,107,.4)}
+.ll-meta{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--ll-muted);align-items:center}
+.ll-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.ll-act{font-size:12px;border:1px solid var(--ll-line);border-radius:18px;padding:5px 12px;color:var(--ll-muted);transition:.2s}
+.ll-act:hover{border-color:var(--ll-accent);color:var(--ll-accent)}
+.ll-act.on{background:rgba(255,210,63,.14);border-color:var(--ll-accent);color:var(--ll-accent)}
+.ll-act.liked{background:rgba(255,107,107,.14);border-color:var(--ll-accent-3);color:var(--ll-accent-3)}
+.ll-list{display:flex;flex-direction:column;gap:2px}
+.ll-list-item{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:14px;padding:16px 4px;border-bottom:1px dashed var(--ll-line);align-items:start;transition:.2s}
+.ll-list-item:hover{background:rgba(255,210,63,.04)}
+.ll-list-num{font-size:20px;font-weight:800;color:#39424f;font-style:italic;line-height:1.3}
+.ll-list-item h3{font-size:15.5px;margin-bottom:5px;line-height:1.45}
+.ll-list-item p{font-size:12.8px;color:var(--ll-muted);margin-bottom:8px}
+.ll-list-side{font-size:11.5px;color:var(--ll-muted);text-align:right;white-space:nowrap;padding-top:3px}
+
+/* ===== deep dive (keyword analysis) ===== */
+.ll-dive p{font-size:14.5px;color:#c3ccda;margin-bottom:14px}
+.ll-dive h3{font-size:17px;margin:24px 0 10px;color:var(--ll-text);display:flex;align-items:center;gap:9px}
+.ll-dive h3::before{content:"";width:8px;height:8px;background:var(--ll-accent);border-radius:2px;transform:rotate(45deg);flex:0 0 auto}
+.ll-dive-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:36px;align-items:start}
+.ll-dive-figure{border:1px solid var(--ll-line);border-radius:var(--ll-radius);overflow:hidden;background:var(--ll-base)}
+.ll-dive-figure img{aspect-ratio:3/4;object-fit:cover;width:100%}
+.ll-dive-figure figcaption{padding:12px 16px;font-size:12px;color:var(--ll-muted);border-top:1px solid var(--ll-line)}
+.ll-quote{margin:20px 0;padding:16px 20px;border-left:3px solid var(--ll-accent-2);background:rgba(61,220,151,.06);border-radius:0 10px 10px 0;font-size:14px;color:#d6dee9}
+
+/* ===== topics / specials ===== */
+.ll-topic{padding:22px;border-radius:var(--ll-radius);border:1px solid var(--ll-line);background:linear-gradient(160deg,rgba(255,210,63,.05),transparent 65%);transition:.25s;display:flex;flex-direction:column}
+.ll-topic:hover{transform:translateY(-4px);border-color:rgba(255,210,63,.4)}
+.ll-topic-status{font-size:11px;color:var(--ll-accent-2);letter-spacing:.1em;margin-bottom:10px;font-weight:700}
+.ll-topic h3{font-size:16.5px;margin-bottom:8px;line-height:1.45}
+.ll-topic-desc{font-size:13px;color:var(--ll-muted);margin-bottom:14px}
+.ll-topic ul{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:auto}
+.ll-topic li{font-size:12.8px;color:#b9c4d3;padding-left:15px;position:relative}
+.ll-topic li::before{content:"›";position:absolute;left:0;color:var(--ll-accent);font-weight:800}
+
+/* ===== creators ===== */
+.ll-creator{padding:22px;border-radius:var(--ll-radius);border:1px solid var(--ll-line);background:var(--ll-base);display:flex;flex-direction:column;gap:12px;transition:.25s}
+.ll-creator:hover{border-color:var(--ll-accent-2);box-shadow:0 10px 26px rgba(0,0,0,.35)}
+.ll-creator-top{display:flex;align-items:center;gap:13px}
+.ll-avatar{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:18px;color:#0d1117;flex:0 0 auto;letter-spacing:.02em}
+.ll-avatar.a1{background:linear-gradient(135deg,#ffd23f,#ff9f1c)}
+.ll-avatar.a2{background:linear-gradient(135deg,#3ddc97,#4cc9f0)}
+.ll-avatar.a3{background:linear-gradient(135deg,#ff6b6b,#ffd23f)}
+.ll-avatar.a4{background:linear-gradient(135deg,#9b8cff,#4cc9f0)}
+.ll-avatar.a5{background:linear-gradient(135deg,#4cc9f0,#3ddc97)}
+.ll-avatar.a6{background:linear-gradient(135deg,#ff9f1c,#ff6b6b)}
+.ll-creator-top h3{font-size:15.5px}
+.ll-creator-field{font-size:11.5px;color:var(--ll-accent-2);letter-spacing:.05em}
+.ll-creator p{font-size:12.8px;color:var(--ll-muted);line-height:1.65}
+.ll-creator-stats{display:flex;gap:16px;font-size:12px;color:#93a0b2}
+.ll-creator-stats b{color:var(--ll-text)}
+.ll-creator-more{align-self:flex-start;font-size:12.5px;color:var(--ll-accent);border-bottom:1px solid transparent}
+.ll-creator-more:hover{border-bottom-color:var(--ll-accent)}
+
+/* ===== reviews ===== */
+.ll-reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.ll-review{border:1px solid var(--ll-line);border-radius:12px;padding:18px;background:var(--ll-base);display:flex;flex-direction:column;gap:10px}
+.ll-review-head{display:flex;align-items:center;gap:10px}
+.ll-review-head .ll-avatar{width:36px;height:36px;font-size:14px}
+.ll-review-head b{font-size:13.5px}
+.ll-review-head span{font-size:11px;color:var(--ll-muted)}
+.ll-review p{font-size:13.2px;color:#c3ccda;line-height:1.7}
+.ll-review .ll-stars{color:var(--ll-accent);font-size:12px;letter-spacing:.14em}
+
+/* ===== ranking ===== */
+.ll-rank-row{display:grid;grid-template-columns:52px minmax(0,1fr) 92px 92px;gap:14px;align-items:center;padding:14px 16px;border:1px solid var(--ll-line);border-radius:12px;margin-bottom:10px;background:var(--ll-base);transition:.2s}
+.ll-rank-row:hover{border-color:rgba(255,210,63,.4)}
+.ll-rank-no{font-size:18px;font-weight:800;color:var(--ll-accent-2);font-style:italic}
+.ll-rank-row:nth-child(1) .ll-rank-no{color:var(--ll-accent)}
+.ll-rank-row h3{font-size:14.5px;margin-bottom:3px}
+.ll-rank-row small{font-size:11.5px;color:var(--ll-muted)}
+.ll-rank-bar{height:6px;border-radius:6px;background:#242c38;overflow:hidden}
+.ll-rank-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--ll-accent),var(--ll-accent-2))}
+.ll-rank-val{font-size:12px;color:var(--ll-muted);text-align:right}
+.ll-rank-val b{color:var(--ll-accent)}
+
+/* ===== news / faq / partner ===== */
+.ll-news{display:flex;flex-direction:column;gap:0}
+.ll-news-item{padding:15px 0;border-bottom:1px dashed var(--ll-line);display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px}
+.ll-news-item time{font-size:12px;color:var(--ll-accent-2);letter-spacing:.04em}
+.ll-news-item h3{font-size:14.5px;margin-bottom:4px}
+.ll-news-item p{font-size:12.6px;color:var(--ll-muted)}
+.ll-faq details{border:1px solid var(--ll-line);border-radius:12px;padding:14px 18px;margin-bottom:10px;background:var(--ll-base);transition:.2s}
+.ll-faq details[open]{border-color:rgba(255,210,63,.4)}
+.ll-faq summary{font-size:14px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.ll-faq summary::-webkit-details-marker{display:none}
+.ll-faq summary::after{content:"+";font-size:18px;color:var(--ll-accent);flex:0 0 auto}
+.ll-faq details[open] summary::after{content:"–"}
+.ll-faq details p{font-size:13.2px;color:var(--ll-muted);margin-top:10px;line-height:1.75}
+.ll-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.ll-partner{border:1px dashed var(--ll-line);border-radius:12px;padding:18px 14px;text-align:center;font-size:13.5px;font-weight:700;color:#cdd7e3;letter-spacing:.04em;transition:.2s}
+.ll-partner:hover{border-color:var(--ll-accent);color:var(--ll-accent);background:rgba(255,210,63,.05)}
+
+/* ===== submit cta ===== */
+.ll-cta-band{border:1px solid rgba(255,210,63,.3);background:linear-gradient(120deg,rgba(255,210,63,.1),rgba(61,220,151,.08));border-radius:18px;padding:32px;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:26px;align-items:center}
+.ll-cta-band h2{font-size:24px;margin-bottom:9px}
+.ll-cta-band p{font-size:13.5px;color:#c3ccda;margin-bottom:16px}
+.ll-cta-band .ll-cta-row{margin-bottom:0}
+
+/* ===== footer ===== */
+.ll-footer{background:#0c1015;border-top:1px solid var(--ll-line);padding:48px 0 26px;font-size:13px;color:var(--ll-muted)}
+.ll-footer-grid{display:grid;grid-template-columns:minmax(0,4fr) repeat(3,minmax(0,2fr));gap:32px;margin-bottom:34px}
+.ll-footer h4{font-size:13px;color:var(--ll-text);margin-bottom:12px;letter-spacing:.08em}
+.ll-footer ul{list-style:none;display:flex;flex-direction:column;gap:8px;font-size:12.5px}
+.ll-footer a:hover{color:var(--ll-accent)}
+.ll-footer-brand p{font-size:12.5px;line-height:1.8;margin-top:10px;max-width:300px}
+.ll-footer-bottom{border-top:1px solid var(--ll-line);padding-top:18px;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;font-size:12px}
+
+/* ===== toast / modal / top ===== */
+.ll-toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);background:#0d1117;border:1px solid var(--ll-accent);color:var(--ll-text);padding:10px 20px;border-radius:24px;font-size:13px;opacity:0;pointer-events:none;transition:.28s;z-index:200}
+.ll-toast.on{opacity:1;transform:translate(-50%,0)}
+.ll-modal{position:fixed;inset:0;background:rgba(5,7,10,.76);display:none;place-items:center;z-index:180;padding:20px}
+.ll-modal.on{display:grid}
+.ll-modal-box{background:var(--ll-base-2);border:1px solid var(--ll-line);border-radius:16px;max-width:520px;width:100%;padding:26px;max-height:86vh;overflow:auto}
+.ll-modal-box h3{font-size:18px;margin-bottom:6px}
+.ll-modal-box .ll-modal-sub{font-size:12.5px;color:var(--ll-muted);margin-bottom:16px}
+.ll-modal-box p{font-size:13.5px;color:#c3ccda;margin-bottom:12px;line-height:1.75}
+.ll-modal-close{float:right;font-size:20px;color:var(--ll-muted)}
+.ll-modal-close:hover{color:var(--ll-accent)}
+.ll-modal textarea,.ll-modal input[type=text]{width:100%;background:var(--ll-base);border:1px solid var(--ll-line);border-radius:10px;color:var(--ll-text);padding:10px 12px;font-size:13px;font-family:inherit;resize:vertical;margin-bottom:12px;outline:none}
+.ll-modal textarea:focus,.ll-modal input:focus{border-color:var(--ll-accent)}
+.ll-top{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:50%;background:var(--ll-accent);color:#0d1117;font-size:18px;display:grid;place-items:center;z-index:150;opacity:0;pointer-events:none;transition:.3s;font-weight:800}
+.ll-top.on{opacity:1;pointer-events:auto}
+
+/* ===== responsive ===== */
+@media(max-width:960px){
+  .ll-hero-grid,.ll-focus,.ll-dive-grid,.ll-cta-band{grid-template-columns:minmax(0,1fr)}
+  .ll-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#12161c;border-bottom:1px solid var(--ll-line);flex-direction:column;gap:0;padding:8px 20px 16px}
+  .ll-nav.open{display:flex}
+  .ll-nav a{padding:11px 0;border-bottom:1px solid var(--ll-line)}
+  .ll-search{flex:1}
+  .ll-burger{display:block}
+  .ll-header-inner{position:relative;flex-wrap:wrap}
+  .ll-grid-3,.ll-grid-4,.ll-partners,.ll-reviews,.ll-grid-2{grid-template-columns:minmax(0,1fr)}
+  .ll-footer-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .ll-rank-row{grid-template-columns:40px minmax(0,1fr);row-gap:8px}
+  .ll-rank-bar,.ll-rank-val{display:none}
+  .ll-hero-visual img{aspect-ratio:16/9}
+}
+@media(max-width:560px){
+  .ll-stats{grid-template-columns:minmax(0,1fr)}
+  .ll-announce-inner{font-size:11.5px;padding:7px 14px}
+  .ll-list-item{grid-template-columns:26px minmax(0,1fr)}
+  .ll-list-side{display:none}
+  .ll-footer-grid{grid-template-columns:minmax(0,1fr)}
+  .ll-cta-band{padding:22px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="ll-topstack">
+  <div class="ll-announce">
+    <div class="ll-announce-inner">
+      <span class="ll-announce-tag">公告</span>
+      <span class="ll-announce-track">11月22日更新：冬季影像企划《长镜头的温度》上线 12 部新片；创作者招募第二季开放报名；高清片库切换至 4K 码率，支持免费下载试看片段。</span>
+    </div>
+  </div>
+  <header class="ll-header">
+    <div class="ll-header-inner">
+      <a class="ll-logo" href="#top" aria-label="影视先锋资源站噜噜噜首页">
+        <span class="ll-logo-mark">▶</span>
+        <span>噜噜噜<small>影视先锋官网</small></span>
+      </a>
+      <nav class="ll-nav" id="llNav" aria-label="主导航">
+        <a href="#focus">焦点内容</a>
+        <a href="#dive">深度解析</a>
+        <a href="#topics">专题企划</a>
+        <a href="#creators">创作者</a>
+        <a href="#reviews">社区口碑</a>
+        <a href="#rank">榜单</a>
+        <a href="#faq">帮助中心</a>
+      </nav>
+      <form class="ll-search" id="llSearchForm" role="search" onsubmit="return false;">
+        <input type="text" id="llSearchInput" placeholder="搜索片名 / 创作者 / 专题" aria-label="站内搜索">
+        <button type="button" id="llSearchBtn">搜索</button>
+      </form>
+      <button class="ll-burger" id="llBurger" aria-label="展开导航" aria-expanded="false">☰</button>
+    </div>
+    <div class="ll-search-feedback" id="llSearchFeedback"></div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="ll-hero" aria-labelledby="llHeroTitle">
+    <div class="ll-wrap ll-hero-grid">
+      <div>
+        <span class="ll-hero-eyebrow">官网 · 原创高清视频品牌</span>
+        <h1 id="llHeroTitle">影视先锋资源站噜噜噜</h1>
+        <p class="ll-hero-lead">一个认真做影像的原创视频社区。把好片子的来源、幕后与观看方式讲清楚，让每一次点开都值得。</p>
+        <p class="ll-hero-intro">作为持续运营的影视内容品牌，噜噜噜官方网站聚焦原创短片、深度测评与创作幕后，为创作者与企业搭建高品质内容生态。我们坚持正版与高清，用真实的故事与稳定的更新节奏，陪伴每一位热爱影像的人。</p>
+        <div class="ll-cta-row">
+          <a class="ll-btn ll-btn-primary" href="#focus">立即观看精品内容</a>
+          <a class="ll-btn ll-btn-ghost" href="#topics">查看专题企划</a>
+          <button class="ll-btn ll-btn-ghost" type="button" data-modal="submit">投稿 / 上传作品</button>
+        </div>
+        <div class="ll-stats">
+          <div class="ll-stat"><b data-count="12840">0</b><span>入库高清片源</span></div>
+          <div class="ll-stat"><b data-count="326">0</b><span>签约创作者</span></div>
+          <div class="ll-stat"><b data-count="96">0</b><span>% 社区好评率</span></div>
+        </div>
+      </div>
+      <div class="ll-hero-visual">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 750'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231a2230'/%3E%3Cstop offset='1' stop-color='%232a3547'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ffd23f'/%3E%3Cstop offset='1' stop-color='%23ff6b6b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='750' fill='url(%23g1)'/%3E%3Ccircle cx='430' cy='180' r='120' fill='%23ffd23f' opacity='0.18'/%3E%3Ccircle cx='150' cy='560' r='150' fill='%233ddc97' opacity='0.12'/%3E%3Crect x='70' y='300' width='460' height='280' rx='18' fill='%230d1117' opacity='0.75'/%3E%3Cpath d='M250 380 L380 440 L250 500 Z' fill='url(%23g2)'/%3E%3Crect x='110' y='612' width='240' height='12' rx='6' fill='%23ffd23f' opacity='0.85'/%3E%3Crect x='110' y='640' width='160' height='10' rx='5' fill='%233ddc97' opacity='0.7'/%3E%3Crect x='110' y='666' width='200' height='10' rx='5' fill='%23ffffff' opacity='0.28'/%3E%3Ctext x='110' y='270' font-family='sans-serif' font-size='64' font-weight='800' fill='%23ffffff' opacity='0.92'%3E先锋%3C/text%3E%3Ctext x='110' y='330' font-family='sans-serif' font-size='26' fill='%23ffd23f' letter-spacing='6'%3EORIGINAL FILM%3C/text%3E%3C/svg%3E" alt="影视先锋资源站噜噜噜原创影像主视觉,深色影院质感与亮色播放标识" width="600" height="750">
+        <div class="ll-hero-badge">本月新片 <span>+38</span> 部 · 4K 高清</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS -->
+  <section class="ll-sec ll-sec-alt ll-anchor" id="focus" aria-labelledby="llFocusTitle">
+    <div class="ll-wrap">
+      <div class="ll-sec-head">
+        <div>
+          <span class="ll-kicker">FOCUS / 焦点内容</span>
+          <h2 id="llFocusTitle">本期焦点 · <span>影视先锋资源站噜噜噜</span> 本周重点推荐</h2>
+          <p>从现实题材到类型实验，我们把本周值得完整看完的作品与解读集中在这里，兼顾观看与理解。</p>
+        </div>
+      </div>
+      <div class="ll-focus">
+        <article class="ll-focus-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23233041'/%3E%3Cstop offset='1' stop-color='%23141a24'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23f1)'/%3E%3Crect x='60' y='80' width='300' height='290' rx='10' fill='%23ffd23f' opacity='0.16'/%3E%3Ccircle cx='560' cy='160' r='90' fill='%233ddc97' opacity='0.18'/%3E%3Cpath d='M0 360 L800 260 L800 450 L0 450 Z' fill='%230d1117' opacity='0.7'/%3E%3Cpath d='M330 170 L430 220 L330 270 Z' fill='%23ffd23f'/%3E%3Ctext x='60' y='400' font-family='sans-serif' font-size='30' font-weight='800' fill='%23fff'%3E长镜头的温度 · 预告%3C/text%3E%3C/svg%3E" alt="长镜头的温度冬季影像企划预告封面" width="800" height="450" loading="lazy">
+          <div class="ll-focus-main-body">
+            <div class="ll-tags"><span class="ll-tag hot">重点企划</span><span class="ll-tag">原创短片</span><span class="ll-tag">4K 高清</span></div>
+            <h3>长镜头的温度：十二位导演，十二段不剪辑的生活</h3>
+            <p>冬季影像企划第二季，邀请十二位创作者用一次不切换的长镜头记录身边的人。没有配乐、不设旁白，只保留环境声与人物的呼吸，把"真实"还给画面本身。</p>
+            <div class="ll-meta"><span>导演合集 · 12 部</span><span>播放 28.6 万</span><span>收藏 1.9 万</span></div>
+            <div class="ll-actions">
+              <button class="ll-act" type="button" data-like>♡ 点赞 <span class="ll-like-num">0</span></button>
+              <button class="ll-act" type="button" data-collect>☆ 收藏</button>
+              <button class="ll-act" type="button" data-share>⤴ 分享</button>
+            </div>
+          </div>
+        </article>
+        <div class="ll-list">
+          <article class="ll-list-item">
+            <span class="ll-list-num">01</span>
+            <div>
+              <h3>深焦：一部短片在后期棚里被重新剪辑的 72 小时</h3>
+              <p>跟拍剪辑师与调色师在成片前的最后挣扎，展示从粗剪到定剪、从 Log 到 Rec.709 的完整工序，附可下载的调色参数清单。</p>
+              <div class="ll-tags"><span class="ll-tag">创作幕后</span><span class="ll-tag">教程干货</span></div>
+            </div>
+            <div class="ll-list-side">播放 12.4 万</div>
+          </article>
+          <article class="ll-list-item">
+            <span class="ll-list-num">02</span>
+            <div>
+              <h3>老影院的最后一排：城市探索者的一夜蹲守</h3>
+              <p>在一座即将改造的老影院里，记录放映员如何用三十五毫米胶片机完成最后一次放映，画面颗粒与放映机的噪声同样动人。</p>
+              <div class="ll-tags"><span class="ll-tag">城市探索</span><span class="ll-tag">情感故事</span></div>
+            </div>
+            <div class="ll-list-side">播放 9.8 万</div>
+          </article>
+          <article class="ll-list-item">
+            <span class="ll-list-num">03</span>
+            <div>
+              <h3>镜头之外：演员在开拍前十五分钟都在做什么</h3>
+              <p>四位演员分享各自的开机前仪式，从默戏、走位、打节拍到与对手沟通，呈现表演准备中最不为人知的一段过程。</p>
+              <div class="ll-tags"><span class="ll-tag">人物访谈</span><span class="ll-tag">真实</span></div>
+            </div>
+            <div class="ll-list-side">播放 8.2 万</div>
+          </article>
+          <article class="ll-list-item">
+            <span class="ll-list-num">04</span>
+            <div>
+              <h3>院线新片深度测评：类型融合这一次成不成立</h3>
+              <p>从叙事结构、剪辑节奏与声音设计三方面拆解本季讨论度最高的院线片，给出是否值得进影院的明确结论。</p>
+              <div class="ll-tags"><span class="ll-tag">深度测评</span><span class="ll-tag">行业观察</span></div>
+            </div>
+            <div class="ll-list-side">播放 15.1 万</div>
+          </article>
+          <article class="ll-list-item">
+            <span class="ll-list-num">05</span>
+            <div>
+              <h3>声音先行：如何用一块毛毯把客厅改成录音棚</h3>
+              <p>预算不足的独立创作者实操指南，讲清吸音、话放、增益与降噪的先后顺序，并给出三段可复用的录制参数。</p>
+              <div class="ll-tags"><span class="ll-tag">实用技巧</span><span class="ll-tag">创意</span></div>
+            </div>
+            <div class="ll-list-side">播放 6.9 万</div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEYWORD DIVE -->
+  <section class="ll-sec ll-anchor" id="dive" aria-labelledby="llDiveTitle">
+    <div class="ll-wrap">
+      <div class="ll-sec-head">
+        <div>
+          <span class="ll-kicker">DEEP DIVE / 深度解析</span>
+          <h2 id="llDiveTitle">我们如何理解 <span>影视先锋资源站噜噜噜</span></h2>
+          <p>不止是一个片库，更是一套关于影像如何被找到、被理解、被看见的完整方法。</p>
+        </div>
+      </div>
+      <div class="ll-dive-grid ll-dive">
+        <div>
+          <h3>“先锋”意味着什么：内容立场与方法论</h3>
+          <p>在影视先锋资源站噜噜噜的官方定义里，“先锋”不是一个修辞，而是一条持续执行的内容标准：优先收录尚未被充分讨论的作品，优先展示作品背后的方法，优先让原本沉默的创作者拥有被听见的位置。我们不把流量当作唯一指标，而是把信息密度、影像语言与真实度作为筛选影片的三项基础维度。每一部进入首页推荐位的作品，都经过至少两位编辑的完整观看与讨论，附带一份可读的推荐理由，而不是一句套话式简介。</p>
+          <p>这套标准让平台的内容结构区别于一般的视频聚合站。我们既有完整可看的高清正版片源，也有围绕同一部作品展开的多层内容：预告、正片、导演访谈、幕后纪录、技术拆解、观看笔记。观众可以选择只看片，也可以顺着线索一路深入。对创作者而言，这是一条从作品到方法、从方法到社群的完整路径。我们相信，真正留住用户的内容生态，来自这种可持续、可追溯、可讨论的组织方式。</p>
+          <h3>关键词拆解一：影视内容的“可信来源”问题</h3>
+          <p>很多观众在寻找老片、独立短片或海外影展作品时，会遇到同一部影片存在多个版本、字幕质量参差、画面比例被误裁的问题。影视先锋资源站噜噜噜选择从源头做规范化：所有入库片源都标注来源、画幅、音轨与字幕状态，重要作品统一提供 4K 与 1080P 两种码率，并保留原始画幅。我们为每一部作品建立独立的档案页，记录上映年份、片长、语言、参与创作者与版本差异说明。这种略显笨拙的做法，让用户不必反复比对，也让平台在口碑上积累了长期信任。</p>
+          <p>为了避免误导，我们不使用“全网最全”这类无法验证的表述，而是明确告诉用户当前可看的内容范围与更新节奏。片库每周三更新一次，每月末发布一次更新日志，说明本月新增、修复与下线内容。若某部作品因授权原因暂时无法提供，我们会在档案页保留索引并注明时间，而不是悄悄移除。这种透明度本身就是品牌资产的一部分，也是我们作为官方网站应有的基本责任。</p>
+          <h3>关键词拆解二：从“资源”到“社区”的转变</h3>
+          <p>“资源站”这个词天然带着工具属性，但影像的真正价值往往发生在观看之后。噜噜噜过去两年做的最大调整，是把一部分资源位让给了社区内容：观众可以写观看笔记，创作者可以发布失败经验，影迷可以就同一个镜头展开长讨论。<strong>我们把它称为“从找到片到读懂片”的转变。</strong>具体落地为三件事：一是每条观看笔记需附具体时间码，避免空泛感受；二是评论区置顶高质量讨论，由编辑手动筛选；三是每月做一次社区投票，让用户决定下月的专题方向。</p>
+          <p>这种转变带来了实实在在的活力。以“长镜头的温度”企划为例，最初只有四位导演参与，社区讨论中有人提出希望看到非职业创作者的视角，第二季因此扩展到十二人，其中一半来自投稿。用户不再只是消费者，而是内容生产的参与者。这也是我们理解的“社区活力”：不靠活动补贴堆热词，而是让每一次讨论、每一条笔记都能进入下一次创作的视野。</p>
+          <h3>关键词拆解三：创作者生态与长期陪伴</h3>
+          <p>对独立影像创作者而言，最难的往往不是拍摄，而是作品完成之后的传播。影视先锋资源站噜噜噜提供三类支持：高清上传与转码、作品档案与版权说明、专题推荐与访谈曝光。平台与创作者之间不签排他协议，作品可以同步发布在其他渠道，但我们要求标注版本信息，以保证用户看到的是创作者认可的版本。目前已有三百二十六位创作者在平台建立主页，累计上传超过一万两千条片源，其中相当一部分是首次获得正式曝光的学生作品。</p>
+          <p>我们还设置了“新人第一支片”栏目，专门推荐从未公开发表过作品的新人，并由编辑撰写不吹捧、只讲方法的中肯点评。很多创作者在访谈中提到，正是这些具体到镜头与声音的反馈，让他们愿意留在平台继续创作。企业的社会责任不是口号，而是把资源真正交到需要的人手里：我们每年将固定比例的推荐位留给公益主题与校园创作，帮助这些内容获得应有的观众。</p>
+          <p>回看整个内容生态，影视先锋资源站噜噜噜希望做的其实很简单——让好作品被准确描述，让认真创作的人被持续看见，让观众的时间不被浪费。这三点守护好了，品牌影响力自然会在时间里积累，而不是靠一次性的热度。</p>
+          <div class="ll-quote">“我们不承诺一次给你全世界，只承诺每一次点开，都能看到一个被认真对待的版本。”——噜噜噜内容编辑部年度手记</div>
+        </div>
+        <figure class="ll-dive-figure">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 450 600'%3E%3Cdefs%3E%3ClinearGradient id='d1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%231d2536'/%3E%3Cstop offset='1' stop-color='%230e131a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='450' height='600' fill='url(%23d1)'/%3E%3Crect x='42' y='60' width='366' height='230' rx='10' fill='%23222c3c'/%3E%3Cpath d='M42 60 L408 60 L408 84 L42 84 Z' fill='%23ffd23f' opacity='0.5'/%3E%3Ccircle cx='80' cy='72' r='5' fill='%23ff6b6b'/%3E%3Ccircle cx='98' cy='72' r='5' fill='%23ffd23f'/%3E%3Ccircle cx='116' cy='72' r='5' fill='%233ddc97'/%3E%3Crect x='76' y='120' width='120' height='10' rx='5' fill='%23ffffff' opacity='0.5'/%3E%3Crect x='76' y='146' width='260' height='8' rx='4' fill='%23ffffff' opacity='0.22'/%3E%3Crect x='76' y='166' width='220' height='8' rx='4' fill='%23ffffff' opacity='0.16'/%3E%3Crect x='76' y='186' width='240' height='8' rx='4' fill='%23ffffff' opacity='0.16'/%3E%3Ccircle cx='300' cy='240' r='26' fill='%23ffd23f' opacity='0.9'/%3E%3Cpath d='M292 230 L312 240 L292 250 Z' fill='%2312161c'/%3E%3Crect x='42' y='330' width='170' height='110' rx='10' fill='%233ddc97' opacity='0.22'/%3E%3Crect x='234' y='330' width='174' height='110' rx='10' fill='%23ff6b6b' opacity='0.18'/%3E%3Crect x='62' y='360' width='130' height='8' rx='4' fill='%23fff' opacity='0.4'/%3E%3Crect x='62' y='380' width='90' height='8' rx='4' fill='%23fff' opacity='0.24'/%3E%3Crect x='254' y='360' width='130' height='8' rx='4' fill='%23fff' opacity='0.4'/%3E%3Crect x='254' y='380' width='70' height='8' rx='4' fill='%23fff' opacity='0.24'/%3E%3Crect x='42' y='472' width='366' height='76' rx='10' fill='%23161d27'/%3E%3Ctext x='62' y='512' font-family='sans-serif' font-size='20' fill='%23ffd23f' font-weight='700'%3E内容方法手册%3C/text%3E%3Ctext x='62' y='534' font-family='sans-serif' font-size='12' fill='%239aa7b8'%3E2026 冬季版 / 官方发布%3C/text%3E%3C/svg%3E" alt="影视先锋资源站噜噜噜内容方法手册视觉版式" width="450" height="600" loading="lazy">
+          <figcaption>内容方法手册：从筛选、标注到推荐，每一步都有据可查，这也是官方网站对外公开的工作方式。</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOPICS -->
+  <section class="ll-sec ll-sec-alt ll-anchor" id="topics" aria-labelledby="llTopicsTitle">
+    <div class="ll-wrap">
+      <div class="ll-sec-head">
+        <div>
+          <span class="ll-kicker">SPECIAL / 专题企划</span>
+          <h2 id="llTopicsTitle">专题企划 · <span>影视先锋资源站噜噜噜</span> 的长期栏目</h2>
+          <p>四个正在连载的专题，分别从幕后、城市、技术与人的角度，持续输出原创精品内容。</p>
+        </div>
+      </div>
+      <div class="ll-grid-2">
+        <article class="ll-topic">
+          <span class="ll-topic-status">连载中 · 已更新 12 集</span>
+          <h3>长镜头的温度</h3>
+          <p class="ll-topic-desc">一次不切换的拍摄，考验的不只是设备，更是创作者对空间的耐心。冬季影像企划，十二位导演，十二段不剪辑的生活。</p>
+          <ul>
+            <li>第 12 集：凌晨四点的面包房，揉面的手与窗外的雪</li>
+            <li>第 11 集：公交车末班车上的七分钟</li>
+            <li>第 10 集：一间琴房里，两个陌生人的合奏</li>
+          </ul>
+        </article>
+        <article class="ll-topic">
+          <span class="ll-topic-status">连载中 · 已更新 9 集</span>
+          <h3>幕后七十二小时</h3>
+          <p class="ll-topic-desc">从勘景到定剪，跟拍一个剧组最紧张的三天。我们关心的是那些不会被写进片尾字幕的决定。</p>
+          <ul>
+            <li>第 9 集：调色师如何用一条曲线救回一场夜戏</li>
+            <li>第 8 集：场记板被摔坏之后的临时方案</li>
+            <li>第 7 集：临时换角，导演与演员的第一次对谈</li>
+          </ul>
+        </article>
+        <article class="ll-topic">
+          <span class="ll-topic-status">已完结 · 16 集全</span>
+          <h3>城市放映厅</h3>
+          <p class="ll-topic-desc">走访正在消失的老影院与录像厅，记录它们最后一段营业时光。这是城市记忆的一部分，也是影像史的注脚。</p>
+          <ul>
+            <li>终章：最后一场胶片放映的观众名单</li>
+            <li>第 15 集：录像带修复师的一天</li>
+            <li>第 14 集：一张手绘电影海报的诞生</li>
+          </ul>
+        </article>
+        <article class="ll-topic">
+          <span class="ll-topic-status">新企划 · 征稿中</span>
+          <h3>第一支片</h3>
+          <p class="ll-topic-desc">专为从未公开发表作品的新人开设。我们提供剪辑与声音建议，以及固定的推荐位，让第一支片被认真对待。</p>
+          <ul>
+            <li>征稿要求：片长 3 至 20 分钟，原创且拥有完整版权</li>
+            <li>辅导机制：每位入选者配一位编辑，两次一对一反馈</li>
+            <li>展示方式：档案页 + 编辑点评 + 社区投票</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATORS -->
+  <section class="ll-sec ll-anchor" id="creators" aria-labelledby="llCreatorsTitle">
+    <div class="ll-wrap">
+      <div class="ll-sec-head">
+        <div>
+          <span class="ll-kicker">CREATORS / 创作者矩阵</span>
+          <h2 id="llCreatorsTitle">正在 <span>影视先锋资源站噜噜噜</span> 持续更新的创作者</h2>
+          <p>六位风格各异的作者，覆盖纪录、剧情、技术与评论，他们构成了平台内容生态的骨架。</p>
+        </div>
+      </div>
+      <div class="ll-grid-3">
+        <article class="ll-creator">
+          <div class="ll-creator-top">
+            <div class="ll-avatar a1">陈</div>
+            <div><h3>陈默镜头</h3><span class="ll-creator-field">纪录 / 长镜头</span></div>
+          </div>
+          <p>纪录片导演，习惯用固定机位等待真实发生。拍过菜市场、夜班公交与即将拆除的老影院，坚信时间本身是最好的剪辑师。作品多在平台首发，并附完整拍摄手记。</p>
+          <div class="ll-creator-stats"><span>作品 <b>84</b></span><span>粉丝 <b>12.6万</b></span></div>
+          <button class="ll-creator-more" type="button" data-author="陈默镜头|纪录片导演，擅长固定机位长镜头纪录。代表作《菜市场的清晨》《末班车七分钟》。持续在平台发布原创高清作品与拍摄手记。">查看作者档案 ›</button>
+        </article>
+        <article class="ll-creator">
+          <div class="ll-creator-top">
+            <div class="ll-avatar a2">林</div>
+            <div><h3>林一帧</h3><span class="ll-creator-field">剪辑 / 技术拆解</span></div>
+          </div>
+          <p>后期指导，喜欢把复杂的工序讲成能上手的步骤。自成体系的调色与剪辑教程在平台连载三年，被不少影视专业学生当作入门参考，更新稳定，错误必改。</p>
+          <div class="ll-creator-stats"><span>作品 <b>126</b></span><span>粉丝 <b>18.3万</b></span></div>
+          <button class="ll-creator-more" type="button" data-author="林一帧|后期指导与剪辑讲师，专长调色流程、剪辑节奏与声音设计。教程注重可复用参数，长期连载中。">查看作者档案 ›</button>
+        </article>
+        <article class="ll-creator">
+          <div class="ll-creator-top">
+            <div class="ll-avatar a3">苏</div>
+            <div><h3>苏晚的放映室</h3><span class="ll-creator-field">影评 / 深度测评</span></div>
+          </div>
+          <p>影评人，写影评十余年，不做情绪化打分，只拆叙事结构。她的测评有一条铁律：先说清楚片子讲什么，再讨论好不好。每期附观看建议与替代片单。</p>
+          <div class="ll-creator-stats"><span>作品 <b>63</b></span><span>粉丝 <b>9.7万</b></span></div>
+          <button class="ll-creator-more" type="button" data-author="苏晚的放映室|资深影评人，关注类型融合与叙事结构。测评强调信息准确，提供明确观看建议与延伸片单。">查看作者档案 ›</button>
+        </article>
+        <article class="ll-creator">
+          <div class="ll-creator-top">
+            <div class="ll-avatar a4">周</div>
+            <div><h3>周野在路上</h3><span class="ll-creator-field">城市探索 / 在地文化</span></div>
+          </div>
+          <p>城市影像作者，习惯用一双旧球鞋丈量街区。镜头里多是巷子、小店与熟面孔，把城市的变化拍成连续的日记。信奉慢拍，一条街道能拍上一整个月。</p>
+          <div class="ll-creator-stats"><span>作品 <b>91</b></span><span>粉丝 <b>14.1万</b></span></div>
+          <button class="ll-creator-more" type="button" data-author="周野在路上|城市探索影像作者，记录街区变化与在地生活方式。作品以连续日记形式更新，节奏缓慢但完整。">查看作者档案 ›</button>
+        </article>
+        <article class="ll-creator">
+          <div class="ll-creator-top">
+            <div class="ll-avatar a5">许</div>
+            <div><h3>许叔的胶片柜</h3><span class="ll-creator-field">修复 / 怀旧影像</span></div>
+          </div>
+          <p>胶片修复师，收藏了上百卷家庭录像带。他把泛黄画面一帧帧修回来的过程拍成系列视频，也替普通家庭找回丢失的记忆。技术之外，更在意影像里的温度。</p>
+          <div class="ll-creator-stats"><span>作品 <b>57</b></span><span>粉丝 <b>7.8万</b></span></div>
+          <button class="ll-creator-more" type="button" data-author="许叔的胶片柜|胶片与录像带修复师，专注老影像数字化修复。系列视频兼顾技术演示与情感叙事，接受公益修复委托。">查看作者档案 ›</button>
+        </article>
+        <article class="ll-creator">
+          <div class="ll-creator-top">
+            <div class="ll-avatar a6">阿</div>
+            <div><h3>阿禾的片场笔记</h3><span class="ll-creator-field">幕后 / 人物访谈</span></div>
+          </div>
+          <p>场记出身，现在专职做幕后访谈。擅长让不善表达的技术人员开口，把灯光、录音、美术的工作讲得让人听得进去。访谈从不预设结论，只呈现选择与代价。</p>
+          <div class="ll-creator-stats"><span>作品 <b>72</b></span><span>粉丝 <b>11.2万</b></span></div>
+          <button class="ll-creator-more" type="button" data-author="阿禾的片场笔记|前场记、现幕后访谈作者。专注灯光、录音、美术等剧组岗位的深度对谈，呈现创作中的真实取舍。">查看作者档案 ›</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RANK -->
+  <section class="ll-sec ll-sec-alt ll-anchor" id="rank" aria-labelledby="llRankTitle">
+    <div class="ll-wrap">
+      <div class="ll-sec-head">
+        <div>
+          <span class="ll-kicker">RANK / 数据榜单</span>
+          <h2 id="llRankTitle">本周口碑榜 · <span>影视先锋资源站噜噜噜</span> 用户投票结果</h2>
+          <p>由社区投票与完播率共同计算，反映真实观看感受，不接受付费上榜。</p>
+        </div>
+      </div>
+      <div class="ll-rank-row">
+        <span class="ll-rank-no">01</span>
+        <div><h3>长镜头的温度 · 第 8 集：修表匠的下午</h3><small>纪录 / 陈默镜头 · 完播率 92%</small></div>
+        <div class="ll-rank-bar"><i style="width:96%"></i></div>
+        <div class="ll-rank-val">口碑 <b>9.6</b></div>
+      </div>
+      <div class="ll-rank-row">
+        <span class="ll-rank-no">02</span>
+        <div><h3>幕后七十二小时 · 调色师的一条曲线</h3><small>技术 / 林一帧 · 完播率 88%</small></div>
+        <div class="ll-rank-bar"><i style="width:92%"></i></div>
+        <div class="ll-rank-val">口碑 <b>9.4</b></div>
+      </div>
+      <div class="ll-rank-row">
+        <span class="ll-rank-no">03</span>
+        <div><h3>老影院的最后一排</h3><small>城市 / 周野在路上 · 完播率 85%</small></div>
+        <div class="ll-rank-bar"><i style="width:89%"></i></div>
+        <div class="ll-rank-val">口碑 <b>9.2</b></div>
+      </div>
+      <div class="ll-rank-row">
+        <span class="ll-rank-no">04</span>
+        <div><h3>类型融合成不成立：本季院线片拆解</h3><small>评论 / 苏晚的放映室 · 完播率 81%</small></div>
+        <div class="ll-rank-bar"><i style="width:84%"></i></div>
+        <div class="ll-rank-val">口碑 <b>8.9</b></div>
+      </div>
+      <div class="ll-rank-row">
+        <span class="ll-rank-no">05</span>
+        <div><h3>把家庭录像带修回彩色</h3><small>修复 / 许叔的胶片柜 · 完播率 79%</small></div>
+        <div class="ll-rank-bar"><i style="width:80%"></i></div>
+        <div class="ll-rank-val">口碑 <b>8.7</b></div>
+      </div>
+      <div class="ll-rank-row">
+        <span class="ll-rank-no">06</span>
+        <div><h3>录音师不爱说话，但这次聊了四十分钟</h3><small>访谈 / 阿禾的片场笔记 · 完播率 76%</small></div>
+        <div class="ll-rank-bar"><i style="width:77%"></i></div>
+        <div class="ll-rank-val">口碑 <b>8.5</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="ll-sec ll-anchor" id="reviews" aria-labelledby="llReviewsTitle">
+    <div class="ll-wrap">
+      <div class="ll-sec-head">
+        <div>
+          <span class="ll-kicker">VOICES / 社区口碑</span>
+          <h2 id="llReviewsTitle">来自 <span>影视先锋资源站噜噜噜</span> 社区的真实评价</h2>
+          <p>不加修饰的用户反馈，包含赞许也包含意见，我们原样呈现。</p>
+        </div>
+      </div>
+      <div class="ll-reviews">
+        <article class="ll-review">
+          <div class="ll-review-head"><div class="ll-avatar a1">李</div><div><b>李不言</b><br><span>影视专业学生 · 注册 2 年</span></div></div>
+          <div class="ll-stars">★★★★★</div>
+          <p>调色那期我反复看了三遍，参数清单直接能用在作业里。最难得的是讲清楚了为什么这么调，而不是只给数值。这种教程在别处很难找到。</p>
+        </article>
+        <article class="ll-review">
+          <div class="ll-review-head"><div class="ll-avatar a2">王</div><div><b>望江客</b><br><span>普通观众 · 注册 1 年</span></div></div>
+          <div class="ll-stars">★★★★☆</div>
+          <p>片源质量确实稳，画幅标注这点很加分，终于不用猜哪个版本是被裁过的。希望老片能再多一些，尤其是一些八十年代的国产片，目前还是偏少。</p>
+        </article>
+        <article class="ll-review">
+          <div class="ll-review-head"><div class="ll-avatar a3">赵</div><div><b>赵小满</b><br><span>独立创作者 · 已投稿 4 次</span></div></div>
+          <div class="ll-stars">★★★★★</div>
+          <p>投稿后收到编辑的反馈，写得很具体，指出我第二幕节奏拖沓、环境声压过了对白，还给了参考片。这比一句“继续加油”有用太多了。</p>
+        </article>
+        <article class="ll-review">
+          <div class="ll-review-head"><div class="ll-avatar a4">吴</div><div><b>吴岸</b><br><span>影院从业者 · 注册 3 年</span></div></div>
+          <div class="ll-stars">★★★★☆</div>
+          <p>城市放映厅那个专题拍到了我们这行的心里。唯一想提的是更新频率不稳定，有一阵子等了两周才更，建议给个明确的更新日历。</p>
+        </article>
+        <article class="ll-review">
+          <div class="ll-review-head"><div class="ll-avatar a5">周</div><div><b>周末放映</b><br><span>影迷社群管理员 · 注册 2 年</span></div></div>
+          <div class="ll-stars">★★★★★</div>
+          <p>把社区投票用于决定下月专题，这个机制很好。我们群里十几个人一起投，最后选的题材真的做出来了，参与感很强。</p>
+        </article>
+        <article class="ll-review">
+          <div class="ll-review-head"><div class="ll-avatar a6">陈</div><div><b>陈九</b><br><span>剪辑师 · 注册 4 年</span></div></div>
+          <div class="ll-stars">★★★★☆</div>
+          <p>整体专业度高，但搜索功能还能再准一些，有时输入片名缩写找不到，得换全称。内容本身没得挑，希望工具层面跟上。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS + FAQ + PARTNERS -->
+  <section class="ll-sec ll-sec-alt ll-anchor" id="faq" aria-labelledby="llNewsTitle">
+    <div class="ll-wrap">
+      <div class="ll-grid-2">
+        <div>
+          <div class="ll-sec-head">
+            <div>
+              <span class="ll-kicker">NEWS / 企业动态</span>
+              <h2 id="llNewsTitle">官方发布与更新日志</h2>
+            </div>
+          </div>
+          <div class="ll-news">
+            <div class="ll-news-item">
+              <time>2026-11-22</time>
+              <div><h3>冬季影像企划第二季正式上线</h3><p>十二部原创长镜头短片同步开放观看，全部提供 4K 与 1080P 双码率。</p></div>
+            </div>
+            <div class="ll-news-item">
+              <time>2026-11-15</time>
+              <div><h3>创作者招募第二季开放报名</h3><p>面向独立创作者与学生，入选者将获得剪辑与声音方面的两次一对一反馈。</p></div>
+            </div>
+            <div class="ll-news-item">
+              <time>2026-11-06</time>
+              <div><h3>片源档案页新增版本对比说明</h3><p>对存在多版本的作品，统一标注画幅、音轨与字幕差异，减少观看误判。</p></div>
+            </div>
+            <div class="ll-news-item">
+              <time>2026-10-28</time>
+              <div><h3>社区观看笔记规范更新</h3><p>笔记需附具体时间码，编辑将每月筛选优质讨论置顶展示。</p></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="ll-sec-head">
+            <div>
+              <span class="ll-kicker">FAQ / 帮助中心</span>
+              <h2>常见问题</h2>
+            </div>
+          </div>
+          <div class="ll-faq">
+            <details><summary>平台的内容是正版授权的吗？</summary><p>平台内容分为自有原创、创作者授权与公益修复三类，每一部作品在档案页都会标注授权类型与来源。对暂未取得授权的作品，我们只保留索引信息，不提供播放。</p></details>
+            <details><summary>如何投稿或上传自己的作品？</summary><p>点击页面中的“投稿 / 上传作品”按钮填写表单，注明片长、画幅与版权归属。编辑会在五个工作日内回复，通过后会安排转码与推荐排期。</p></details>
+            <details><summary>为什么有些作品只有 1080P？</summary><p>部分早期片源母带分辨率有限，强行升采样会损失细节，因此保留原生分辨率并标注清楚，这是我们坚持的品质原则。</p></details>
+            <details><summary>观看笔记为什么要写时间码？</summary><p>时间码能让讨论指向具体画面，避免泛泛而谈。这也是社区内容能持续产出高质量讨论的基础规则。</p></details>
+            <details><summary>专题的选题由谁决定？</summary><p>部分专题由编辑部策划，部分由每月社区投票产生。投票结果与执行进度会在更新日志中公开说明。</p></details>
+            <details><summary>可以申请修复家庭录像带吗？</summary><p>可以。平台每季度开放一定名额的公益修复，由许叔的胶片柜团队执行，需提供介质状况说明，修复结果会征得委托者同意后决定是否公开。</p></details>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:38px">
+        <div class="ll-sec-head"><div><span class="ll-kicker">PARTNERS / 合作品牌</span><h2>与我们一起推动影像内容生态的伙伴</h2></div></div>
+        <div class="ll-partners">
+          <div class="ll-partner">光影器材实验室</div>
+          <div class="ll-partner">城市影像档案馆</div>
+          <div class="ll-partner">第九帧后期工坊</div>
+          <div class="ll-partner">青年短片扶持计划</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="ll-sec" aria-labelledby="llCtaTitle">
+    <div class="ll-wrap">
+      <div class="ll-cta-band">
+        <div>
+          <h2 id="llCtaTitle">把你的作品，放进 <span style="color:var(--ll-accent)">影视先锋资源站噜噜噜</span></h2>
+          <p>我们长期开放投稿，不收取费用。无论你是第一次拍片的创作者，还是已经完成多部作品的团队，都欢迎把片子交给我们，附上你的创作想法，我们会认真看完并给出具体反馈。</p>
+          <div class="ll-cta-row">
+            <button class="ll-btn ll-btn-primary" type="button" data-modal="submit">立即投稿</button>
+            <button class="ll-btn ll-btn-ghost" type="button" data-share>分享给朋友</button>
+          </div>
+        </div>
+        <div>
+          <div class="ll-news">
+            <div class="ll-news-item" style="grid-template-columns:minmax(0,1fr)">
+              <div><h3>投稿要求速览</h3><p>原创作品，片长 3 至 20 分钟，拥有完整版权；提交时注明画幅与字幕状态；可附拍摄手记，编辑会一并阅读。</p></div>
+            </div>
+            <div class="ll-news-item" style="grid-template-columns:minmax(0,1fr)">
+              <div><h3>我们能提供什么</h3><p>高清转码与档案页、专题推荐位、一次具体的编辑反馈；入选新人栏目的作品还会获得社区投票展示机会。</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ll-footer">
+  <div class="ll-wrap">
+    <div class="ll-footer-grid">
+      <div class="ll-footer-brand">
+        <div class="ll-logo" style="margin-bottom:6px">
+          <span class="ll-logo-mark">▶</span>
+          <span style="color:var(--ll-text)">噜噜噜<small>影视先锋官网</small></span>
+        </div>
+        <p>影视先锋资源站噜噜噜官方网站，专注原创高清影视内容与创作者社区，持续运营，坚持正版与品质。让好作品被准确描述，让认真创作的人被看见。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#focus">焦点内容</a></li>
+          <li><a href="#dive">深度解析</a></li>
+          <li><a href="#topics">专题企划</a></li>
+          <li><a href="#rank">口碑榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#creators">创作者矩阵</a></li>
+          <li><a href="#reviews">用户评价</a></li>
+          <li><a href="#faq">帮助中心</a></li>
+          <li><button type="button" style="color:inherit" data-modal="submit">投稿入口</button></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#top">品牌介绍</a></li>
+          <li><button type="button" style="color:inherit" data-modal="feedback">意见反馈</button></li>
+          <li><button type="button" style="color:inherit" data-share>分享站点</button></li>
+          <li><a href="#faq">合作咨询</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ll-footer-bottom">
+      <span>© 2026 影视先锋资源站噜噜噜 官方网站 · 版权所有 · 持续运营中</span>
+      <span>备案号：示例备案 000000 号 · 内容均为原创或已获授权</span>
+    </div>
+  </div>
+</footer>
+
+<button class="ll-top" id="llTop" aria-label="回到顶部">↑</button>
+<div class="ll-toast" id="llToast" role="status" aria-live="polite"></div>
+
+<div class="ll-modal" id="llModalSubmit" role="dialog" aria-modal="true" aria-labelledby="llModalSubmitTitle">
+  <div class="ll-modal-box">
+    <button class="ll-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="llModalSubmitTitle">投稿 / 上传作品</h3>
+    <p class="ll-modal-sub">填写基本信息，编辑会在五个工作日内回复。</p>
+    <input type="text" id="llSubmitName" placeholder="你的昵称或团队名">
+    <input type="text" id="llSubmitTitle" placeholder="作品名称与片长">
+    <textarea id="llSubmitNote" rows="4" placeholder="简单介绍创作想法、画幅与字幕状态"></textarea>
+    <button class="ll-btn ll-btn-primary" type="button" id="llSubmitSend">提交投稿</button>
+  </div>
+</div>
+
+<div class="ll-modal" id="llModalFeedback" role="dialog" aria-modal="true" aria-labelledby="llModalFbTitle">
+  <div class="ll-modal-box">
+    <button class="ll-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="llModalFbTitle">意见反馈</h3>
+    <p class="ll-modal-sub">我们会认真阅读每一条意见，尤其是具体的改进建议。</p>
+    <textarea id="llFbText" rows="4" placeholder="请描述你遇到的问题或建议"></textarea>
+    <button class="ll-btn ll-btn-primary" type="button" id="llFbSend">提交反馈</button>
+  </div>
+</div>
+
+<div class="ll-modal" id="llModalAuthor" role="dialog" aria-modal="true" aria-labelledby="llAuthorTitle">
+  <div class="ll-modal-box">
+    <button class="ll-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="llAuthorTitle">作者档案</h3>
+    <p class="ll-modal-sub">影视先锋资源站噜噜噜 认证创作者</p>
+    <p id="llAuthorBody"></p>
+  </div>
+</div>
+
+<div class="ll-modal" id="llModalShare" role="dialog" aria-modal="true" aria-labelledby="llShareTitle">
+  <div class="ll-modal-box">
+    <button class="ll-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="llShareTitle">分享</h3>
+    <p class="ll-modal-sub">把内容分享给同样喜欢影像的朋友。</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px">
+      <button class="ll-btn ll-btn-ghost" type="button" data-copy>复制链接</button>
+      <button class="ll-btn ll-btn-ghost" type="button" data-share-tip="微信">微信</button>
+      <button class="ll-btn ll-btn-ghost" type="button" data-share-tip="微博">微博</button>
+      <button class="ll-btn ll-btn-ghost" type="button" data-share-tip="QQ">QQ</button>
+    </div>
+    <p style="font-size:12.5px;color:var(--ll-muted)">提示：分享按钮仅作演示，不发起第三方请求。</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var toastEl = document.getElementById('llToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('on'); }, 2200);
+  }
+
+  /* mobile nav */
+  var burger = document.getElementById('llBurger');
+  var nav = document.getElementById('llNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '✕' : '☰';
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      nav.classList.remove('open');
+      burger.textContent = '☰';
+      burger.setAttribute('aria-expanded','false');
+    });
+  });
+
+  /* search feedback */
+  var input = document.getElementById('llSearchInput');
+  var btn = document.getElementById('llSearchBtn');
+  var fb = document.getElementById('llSearchFeedback');
+  function doSearch(){
+    var q = input.value.trim();
+    if(!q){
+      fb.textContent = '请输入片名、创作者或专题关键词，例如“长镜头”“调色”“城市”。';
+      fb.classList.add('on');
+      return;
+    }
+    var map = {
+      '长镜头':'已找到 12 条相关内容，包含《长镜头的温度》全季与 3 篇拍摄手记。',
+      '调色':'已找到 8 条后期教程，含《调色师的一条曲线》与参数清单。',
+      '城市':'已找到 16 条城市探索影像，推荐《老影院的最后一排》。',
+      '新人':'已找到 5 条「第一支片」栏目内容，征稿中。',
+      '修复':'已找到 7 条影像修复内容，由许叔的胶片柜更新。'
+    };
+    var hit = null;
+    for(var k in map){ if(q.indexOf(k) > -1){ hit = map[k]; break; } }
+    fb.textContent = hit || ('关于「' + q + '」的结果已整理，可继续在焦点内容与专题企划中浏览相关条目。');
+    fb.classList.add('on');
+  }
+  btn.addEventListener('click', doSearch);
+  input.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); doSearch(); } });
+
+  /* like / collect */
+  document.querySelectorAll('[data-like]').forEach(function(el){
+    el.addEventListener('click', function(){
+      var numEl = el.querySelector('.ll-like-num');
+      var liked = el.classList.toggle('liked');
+      var v = parseInt(numEl.textContent, 10) || 0;
+      v = liked ? v + 1 : Math.max(0, v - 1);
+      numEl.textContent = v;
+      toast(liked ? '已点赞，感谢支持原创内容' : '已取消点赞');
+    });
+  });
+  document.querySelectorAll('[data-collect]').forEach(function(el){
+    el.addEventListener('click', function(){
+      var on = el.classList.toggle('on');
+      el.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      toast(on ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* modals */
+  var modals = {
+    submit: document.getElementById('llModalSubmit'),
+    feedback: document.getElementById('llModalFeedback'),
+    author: document.getElementById('llModalAuthor'),
+    share: document.getElementById('llModalShare')
+  };
+  function closeAll(){
+    Object.keys(modals).forEach(function(k){ modals[k].classList.remove('on'); });
+  }
+  function open(name){
+    closeAll();
+    if(modals[name]) modals[name].classList.add('on');
+  }
+  document.querySelectorAll('[data-modal]').forEach(function(el){
+    el.addEventListener('click', function(){ open(el.getAttribute('data-modal')); });
+  });
+  document.querySelectorAll('[data-close]').forEach(function(el){
+    el.addEventListener('click', closeAll);
+  });
+  Object.keys(modals).forEach(function(k){
+    modals[k].addEventListener('click', function(e){ if(e.target === modals[k]) closeAll(); });
+  });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeAll(); });
+
+  /* author modal */
+  document.querySelectorAll('[data-author]').forEach(function(el){
+    el.addEventListener('click', function(){
+      var parts = el.getAttribute('data-author').split('|');
+      document.getElementById('llAuthorTitle').textContent = parts[0];
+      document.getElementById('llAuthorBody').textContent = parts[1] || '';
+      open('author');
+    });
+  });
+
+  /* share */
+  document.querySelectorAll('[data-share]').forEach(function(el){
+    el.addEventListener('click', function(){ open('share'); });
+  });
+  document.querySelectorAll('[data-share-tip]').forEach(function(el){
+    el.addEventListener('click', function(){
+      toast('已生成' + el.getAttribute('data-share-tip') + '分享文案（演示）');
+    });
+  });
+  document.querySelectorAll('[data-copy]').forEach(function(el){
+    el.addEventListener('click', function(){
+      var text = '影视先锋资源站噜噜噜 - 原创高清影视内容社区';
+      function ok(){ toast('链接已复制到剪贴板'); }
+      function fail(){ toast('复制未成功，请手动选择文本'); }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(ok).catch(fail);
+      } else {
+        try{
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          ok();
+        } catch(e){ fail(); }
+      }
+    });
+  });
+
+  /* submit & feedback */
+  document.getElementById('llSubmitSend').addEventListener('click', function(){
+    var name = document.getElementById('llSubmitName').value.trim();
+    var title = document.getElementById('llSubmitTitle').value.trim();
+    if(!name || !title){
+      toast('请至少填写昵称与作品名称');
+      return;
+    }
+    closeAll();
+    toast('投稿已提交，编辑将在五个工作日内回复');
+  });
+  document.getElementById('llFbSend').addEventListener('click', function(){
+    var t = document.getElementById('llFbText').value.trim();
+    if(!t){ toast('请填写反馈内容'); return; }
+    closeAll();
+    toast('反馈已收到，感谢你的建议');
+  });
+
+  /* back to top */
+  var topBtn = document.getElementById('llTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 500){ topBtn.classList.add('on'); }
+    else { topBtn.classList.remove('on'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* number count */
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    var els = document.querySelectorAll('[data-count]');
+    var any = false;
+    els.forEach(function(el){
+      var rect = el.getBoundingClientRect();
+      if(rect.top < window.innerHeight && rect.bottom > 0) any = true;
+    });
+    if(!any) return;
+    counted = true;
+    els.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-count'), 10);
+      var cur = 0;
+      var step = Math.max(1, Math.floor(target / 60));
+      var t = setInterval(function(){
+        cur += step;
+        if(cur >= target){ cur = target; clearInterval(t); }
+        el.textContent = cur.toLocaleString('zh-CN');
+      }, 22);
+    });
+  }
+  window.addEventListener('scroll', runCount, {passive:true});
+  runCount();
+})();
+</script>
+</body>
+  </html>
